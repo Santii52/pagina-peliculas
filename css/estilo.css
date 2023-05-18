@@ -1,0 +1,106 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    text-align: center;
+    background-color:#040507;
+    padding: 15px;
+}
+
+#lanzamientos {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15%;
+    background-color: #4C3D3D;
+    padding-bottom: 20px;
+    color: aqua;
+}
+
+.imagen-peliculas {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+}
+
+.pelicula1, .pelicula2, .pelicula3 {
+    flex: 1;
+    text-align: center;
+}
+
+#reseñas {
+    display: flex;
+}
+
+.reseña1, .reseña2, .reseña3 {
+    flex: 1;
+    text-align: center;
+}
+
+header {
+    background-color:#141831;
+    padding-top: 1px;
+}
+
+body {
+    background-color:#2e2f42;
+    margin: 0;
+}
+
+.barra-divisora {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+h4, h3 {
+    margin: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pelis, .about-me, .login {
+    padding: 50px;
+    text-align: 
+}
+
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+    color: rgb(228, 226, 226);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.by {
+    font-weight: 700;
+}
+
+h2 {
+    color: white;
+    padding-left: 2px;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#icono-de-pagina {
+    width: 5%;
+}
+
+#ig {
+    width: 3%;
+    padding-left: 35%;
+    display: flex;
+    
+}
