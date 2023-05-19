@@ -100,7 +100,16 @@ h2 {
 
 #ig {
     width: 3%;
-    padding-left: 35%;
-    display: flex;
-    
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#twitter {
+    width: 3%;
+    padding-left: 2%;
+}
+
+address {
+    color: white;
+    margin-top: 25px;
 }
