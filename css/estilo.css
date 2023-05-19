@@ -5,6 +5,8 @@
 h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 nav {
@@ -88,7 +90,7 @@ a {
 }
 
 h2 {
-    color: white;
+    color: rgb(255, 255, 255);
     padding-left: 2px;
     display: inline-block;
     font-family: 'Courier New', Courier, monospace;
@@ -112,4 +114,22 @@ h2 {
 address {
     color: white;
     margin-top: 25px;
+}
+
+#container {
+    background-color: rgb(15, 18, 58);
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 2px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+#perfil-usuario {
+    width: 30%;
+}
+
+#icono-y-h2 {
+    padding-left: 25px;
 }
