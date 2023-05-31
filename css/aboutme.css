@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Montserrat:wght@500&display=swap');
+
+/* RECORDAR "@import url (COMILLAS DENTRO);" PARA TRAER UNA FUENTE AL ARCHIVO CSS */
+/* ESE ES EL METODO QUE VOY A UTILIZAR PARA TRAER FUENTES A LOS PROYECTOS CON CSS */
+
+/* IMPORTANTE RECORDAR PARA FUTURO */
+        /* 
+        @font-face {
+            font-family: (NOMBRE DEL TIPO DE FUENTE) ;
+            src: url(URL DE LA FUENTE);
+        } */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    float: left;
+}
+
+/* font: propiedades que manejan la tipografía dentro nuestro doc html */
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-family:'Bebas Neue', sans-serif;
+}
+
+
+.p1 {
+    font-family: serif;
+    font-size: 16px; 
+    /* FONT-WEIGHT: EL GROSOR DE LA TIPOGRAFIA.. */
+    /* FONT-WEIGHT: EL GROSOR DE LA TIPOGRAFIA.. */
+    /* FONT-WEIGHT: EL GROSOR DE LA TIPOGRAFIA.. */
+    font-weight: bold;
+    /* EL REM MULTIPLICA LOS PIXELES NATIVOS DEL HTML DEFAULT, ES DECIR SI SON 16PX DEFAULT Y PONGO 2REM SON 32 REM, SI PONGO 3 SON 48 Y ASÍ SUCESIVAMENTE! */
+}
+
+
+.p2 {
+    font-family: Italic;
+    font-weight: 900;
+    font-size: 16px;
+    width: 50%;  
+    border: 3px solid black;
+
+}
+
+.p3 {
+    font-family: monospace;
+}   
+
+.p4 {
+    width: 10vw;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 800;
+}
+
+.p5 {
+    font-family: 'Lobster';
+    font-weight: 900;
+}
+
+/* EL FLOAT PARA MOVER OBJETOS, DIVS SIRVE UN MONTON */
+
+
+/* MEDIDAS */
+    /* REM? QUE ES REM? */
+    /* EM? QUE ES ESA MEDIDA? */
+    /* VH? QUE ES VH? */
+    /* VW? */
+    /* px */
+    
+    /* TIPOGRAFIAS */
+    /* SERIF, TIPOGRAFIA CON ARREGLOS */
+    /* SANS-SERIF, TIPOGRAFIA SIN ARREGLOS */
+    
+        /*COSAS GENERALES Y PROPIEDADES DE FUENTE  */
+            /* TAMAÑO DE LA TIPOGRAFIA, FONT-SIZE (POR DEFAULT 16PX) */
+            /* DISPLAY: NONE QUITA EL DISPLAY, NO LO MUESTRA EL NAVIGATOR */
+            /* EN CASCADA, SIEMPRE VA A ESSCOGER LA SIGUIENTE SI NO HAY DE LA ANTERIO */
+    
+
+
+ /* COSAS A TENER EN CUENTA PARA CREAR UN PROYECTO */
+    /* SKETCHES O SKETCH (BOCETOS) */
+    /* WIREFRAMES (BALSAMIQ, FIGMA, NINJAMOCK, INVISIONAPP) */
+        /* PALETAS DE COLORES PARA LA PAGINA */

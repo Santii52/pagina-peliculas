@@ -5,16 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilo.css">
-    <title>Página de Registro de movie data base</title>
+    <title>Registro</title>
 </head>
 <body>
     <header>
-        <img src="../assets/film.png" alt="Movies Data Base" id="icono-de-pagina">
-        <h2>Movies data Base</h2>
+        <div id="icono-y-h2">
+            <img src="../assets/film.png" alt="Movies Data Base" id="icono-de-pagina">
+            <h2>Movies data Base</h2>
+        </div>
         <nav>
             <a href="" class="pelis">Peliculas</a>
-            <a href="" class="about-me">Sobre nosotros</a>
-            <a href="" class="login">Registrarse</a>
+            <a href="../pages/aboutme.html" class="about-me">Sobre nosotros</a>
+            <a href="../index.html" class="login">Inicio</a>
         </nav>
+    </header>
+    <main>
+        <div class="titulo-contenedor">
+            <h1 id="h1-titulo">Registrarse en Movies Data Base</h1>
+        </div>
+        <div>
+            <form id="formulario">
+                <label for="correo-electronico" id="password"> 
+                    <p>
+                        Correo electrónico
+                    </p> 
+                    <input type="email" id="correo-electronico" placeholder="Email">
+                </label>
+                <label for="nombre-usuario" id="username"> 
+                    <p>
+                        Nombre de usuario
+                    </p>
+                    <input type="text" id="nombre-usuario" placeholder="Username">
+                </label>
+                <br>
+                <label for="contraseña" id="password"> 
+                    <p>
+                        Contraseña
+                    </p> 
+                    <input type="password" id="contraseña" placeholder="Password">
+                </label>
+                <input type="button" name="" id="boton" value="Completar Registro">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <address>
+            Todos los derechos reservados a Movie Data Base<br>
+            para más información dirijase a la sección de Sobre nosotros
+        </address>
+        <div id="imagenes">
+            <a href="">
+                <img src="../assets/instagram-logo.png" alt="Siguenos en Instagram" id="ig">
+            </a>
+            <a href="">
+                <img src="../assets/twitter.png" alt="Siguenos en Twitter" id="twitter">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
